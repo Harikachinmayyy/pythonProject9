@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+  .GFG {
+            background-color: black;
+            border: 2px solid black;
+            color: white;
+            padding: 4px 120px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+        }
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Welcome! Find a flexible flight for your next trip.</p>
+  <p>Here’s why travellers choose us</p>
+</div>
+
+<h2 style="text-align:center">Our Partners</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202207/indigo-copy-sixteen_nine-sixteen_nine.jpeg?size=948:533" alt="Indigo" style="width:100%">
+      <div class="container">
+        <h2>Indigo AirLines</h2>
+
+        <p>1600+ Daily flights</p>
+        <p>70+ Domestic Destinations</p>
+        <p>25+ International Destinations</p>
+        <p>300 million + happy passengers</p>
+       <button class="GFG"
+    onclick="window.location.href = 'https://www.goindigo.in/?linkNav=header~logo';">
+         Contact
+    </button>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://traveltradejournal.com/wp-content/uploads/2022/04/Spicejet.jpg" alt="Spice Jet" style="width:100%">
+      <div class="container">
+        <h2>Spice Jet</h2>
+
+        <p>Simplify Your Booking Experience</p>
+        <p>Affectionate Customer Support</p>
+        <p>Together with our credible partners</p>
+        <p>World's Local Booking Excitement</p>
+        <button class="GFG"
+    onclick="window.location.href = 'https://www.airpaz.com/en';">
+         Contact
+    </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202211/airasia-sixteen_nine.jpg" alt="Air Asia" style="width:100%">
+      <div class="container">
+        <h2>Air Asia</h2>
+
+        <p>Single-aisle, short-to-medium haul jet.</p>
+        <p>Capacity of 180 guests.</p>
+        <p>Wingspan: 35.80m with Sharklets.</p>
+        <p> Tata Sons Private Limited</p>
+        <button class="GFG"
+    onclick="window.location.href = 'https://www.airasia.co.in/home';">
+         Contact
+    </button>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+   </body>
+</html>

@@ -1,0 +1,35 @@
+ {% extends 'commons.html' %}
+
+ {% block content %}
+    <h1> {% block title%}<a href="/">HOME</a> {% endblock %}</h1>
+   
+
+    <form action="/registeruser" method="post" >
+
+        <Body background ="https://s38924.pcdn.co/wp-content/uploads/2020/08/User-Registration-1.png"><br>
+        <label for="username">Username</label>
+  <div class="text_field">
+             <input type="text" name="username" placeholder="Enter User Name" name="username" id="username" placeholder="Enter Your Name" onblur="return validateUserName()"required/>
+        </div>
+         <label for="Password">Password</label>
+        <div class="text_field">
+            <input type="password" name="password" id="password" placeholder="Enter Your Password" onblur="return validatePassword()" required/>
+        </div>
+         <label for="Email">Email</label>
+        <div class="text_field">
+            <input type="email" name="email" id="email" placeholder="Enter Email Id" required/>
+        </div>
+         <label>Mobile</label>
+        <div class="text_field">
+             <input type="text" name="mobileno" placeholder="Enter Mobile Number" pattern="[0-9]*" required/>
+        </div>
+        <div class="text_field">
+             <input type="submit" value="Register" required/>
+
+        </div>
+<div class="signin">
+<p>Already have an account? <a href="/new">Sign in</a>.</p>
+</div>
+     </form>
+
+ {% endblock %}

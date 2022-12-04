@@ -1,0 +1,32 @@
+{% extends 'commons.html' %}
+
+{% block content %}
+
+
+<h1> {% block title%}<a href="/">HOME</a> {% endblock %}</h1>
+ <Body background="https://free4kwallpapers.com/uploads/originals/2015/07/15/flight-wallpapers-hd.jpg"><br>
+ <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form action="/registeruser" method="post">
+           <h3>Login Here</h3>
+             <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username" required/>
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" required/>
+
+        <button>
+            Log In
+        </button>
+        <div class="signup_link">
+            New User <a href="/newuser"> Register here</a>
+        </div>
+
+
+    </form>
+
+
+{% endblock %}
+

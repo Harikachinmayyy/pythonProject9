@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desktop"
+		},
+		{
+			"path": "../../../../../Desktop/html"
+		},
+		{
+			"path": "../../../../../../../html"
+		},
+		{
+			"path": "../../../../../Desktop/sdp-1"
+		},
+		{
+			"path": "../../../../../Desktop/sdpprojectboot"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../Desktop/djangoProject"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pythonProject9"
+	}
+}
